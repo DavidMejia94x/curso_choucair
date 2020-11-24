@@ -1,0 +1,125 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 58892700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ChoucairAcademyStepDefinitions.setStage()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search for a automation course",
+        "description": "",
+        "id": "academy-choucair;search-for-a-automation-course",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16073282300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "than david wants to learn automation at the academy Choucar",
+            "match": {
+              "location": "ChoucairAcademyStepDefinitions.thanDavidWantsToLearnAutomationAtTheAcademyChoucar(choucairAcademyData\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "strUser",
+                  "strPassword"
+                ]
+              },
+              {
+                "cells": [
+                  "1041611184",
+                  "Choucair2020*"
+                ]
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3525882600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "he search for the course Recursos Automatizacion Bancolombia on the choucair academy platform",
+            "match": {
+              "location": "ChoucairAcademyStepDefinitions.heSearchForTheCourseRecursosAutomatizacionBancolombiaOnTheChoucairAcademyPlatform(choucairAcademyData\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "course"
+                ]
+              },
+              {
+                "cells": [
+                  "ISTQB - Test Automation Engineer"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 596318500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "he finds the course called resources Recursos Automatizacion Bancolombia",
+            "match": {
+              "location": "ChoucairAcademyStepDefinitions.heFindsTheCourseCalledResourcesRecursosAutomatizacionBancolombia(choucairAcademyData\u003e)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "course"
+                ]
+              },
+              {
+                "cells": [
+                  "ISTQB - Test Automation Engineer"
+                ]
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@stories"
+          },
+          {
+            "name": "@scenario1"
+          }
+        ]
+      }
+    ],
+    "name": "Academy choucair",
+    "description": "  As a user, I want to learn how to Automate in screenplay at the Choucair Academy with the atomation course",
+    "id": "academy-choucair",
+    "keyword": "Feature",
+    "uri": "src/test/resources/co.com.choucair.certificacion.proyectobase/features/academy_choucair.feature",
+    "tags": [
+      {
+        "name": "@stories",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
